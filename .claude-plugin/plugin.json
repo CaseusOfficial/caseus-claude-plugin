@@ -1,0 +1,23 @@
+{
+  "name": "caseus",
+  "displayName": "Caseus",
+  "version": "0.1.0",
+  "description": "Work in Caseus property management from Claude: tenants and arrears, supplier invoices and attest, fault reports, tasks and property reports. Connects to your own Caseus instance.",
+  "author": {
+    "name": "Caseus",
+    "email": "wendt@caseus.se",
+    "url": "https://caseus.se"
+  },
+  "homepage": "https://caseus.se",
+  "repository": "https://github.com/CaseusOfficial/caseus-claude-plugin",
+  "license": "MIT",
+  "keywords": ["property management", "fastighetsforvaltning", "real estate", "invoices", "tenants", "sweden"],
+  "userConfig": {
+    "caseus_mcp_url": {
+      "type": "string",
+      "title": "Caseus connection address",
+      "description": "Copy it from your Caseus under Inställningar > Auktoriserade agenter. It starts with https:// and your own Caseus host, for example https://yourcompany.caseus.se/api/mcp",
+      "required": true
+    }
+  }
+}

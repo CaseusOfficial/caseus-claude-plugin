@@ -1,0 +1,15 @@
+{
+  "name": "caseus",
+  "description": "The Caseus plugin for Claude: work in Caseus property management from Claude Code, chat and Cowork.",
+  "owner": {
+    "name": "Caseus",
+    "email": "wendt@caseus.se"
+  },
+  "plugins": [
+    {
+      "name": "caseus",
+      "source": "./",
+      "description": "Work in Caseus property management from Claude: tenants and arrears, supplier invoices and attest, fault reports, tasks and property reports."
+    }
+  ]
+}

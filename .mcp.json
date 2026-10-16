@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "caseus": {
+      "type": "http",
+      "url": "${user_config.caseus_mcp_url}"
+    }
+  }
+}
